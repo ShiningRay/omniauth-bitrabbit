@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["ShiningRay"]
   spec.email         = ["tsowly@hotmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{OmniAuth Oauth2 strategy for bitrabbit.com.}
+  spec.description   = %q{OmniAuth Oauth2 strategy for bitrabbit.com.}
+  spec.homepage      = "https://bitrabbit.com"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
