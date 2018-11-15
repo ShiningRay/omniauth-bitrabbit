@@ -21,7 +21,7 @@ module OmniAuth
       uid { raw_info["id"] }
       def raw_info
         @raw_info ||=
-          access_token.get("/api/v1/me.json").parsed
+          access_token.get("/oauth/v1/me.json").parsed
       end
     end
   end
